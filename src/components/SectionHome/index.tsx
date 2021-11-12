@@ -1,5 +1,4 @@
 import { Flex, Box, Image, Text, Link, Icon, Grid } from '@chakra-ui/react';
-import { NavLink } from '../Header/NavLink';
 import { FiArrowRight } from 'react-icons/fi';
 
 export function SectionHome() {
