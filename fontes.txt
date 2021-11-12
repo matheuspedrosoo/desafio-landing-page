@@ -1,0 +1,16 @@
+inter 400 500 700 600
+
+
+Fredoka One 400
+
+
+DM Sans 700
+
+
+Nunito 700
+
+
+Nunito Sans 300 800 700 400
+
+
+Work Sans 400
