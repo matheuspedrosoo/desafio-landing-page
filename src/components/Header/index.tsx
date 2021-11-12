@@ -12,7 +12,6 @@ export function Header() {
       mx='auto'
       align='center'
       justify='space-between'
-      border='1px solid red'
       bg='#FFFFFF'
     >
       <Logo />
