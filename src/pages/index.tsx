@@ -2,6 +2,7 @@ import { Header } from '../components/Header';
 import { SectionAbout } from '../components/SectionAbout';
 import { SectionHome } from '../components/SectionHome';
 import { Universitys } from '../components/Universitys';
+import { SectionWhoWeAre } from '../components/SectionWhoWeAre';
 
 export default function HomePage() {
   return (
@@ -13,6 +14,8 @@ export default function HomePage() {
       <Universitys />
 
       <SectionAbout />
+
+      <SectionWhoWeAre />
     </>
   );
 }
