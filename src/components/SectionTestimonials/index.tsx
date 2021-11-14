@@ -1,12 +1,11 @@
-import { Flex, Box, Grid, Text, Image, Button } from '@chakra-ui/react';
+import { Flex, Box, Text, Image, Button } from '@chakra-ui/react';
 
-export function Testimonials() {
+export function SectionTestimonials() {
   return (
     <Box
       border='1px solid transparent'
       bg='white'
       w='100%'
-      h='716px'
       maxWidth={1440}
       mx='auto'
     >

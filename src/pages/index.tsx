@@ -1,10 +1,11 @@
 import { Header } from '../components/Header';
 import { SectionAbout } from '../components/SectionAbout';
 import { SectionHome } from '../components/SectionHome';
-import { Universitys } from '../components/Universitys';
+import { SectionUniversitys } from '../components/SectionUniversitys';
 import { SectionWhoWeAre } from '../components/SectionWhoWeAre';
-import { Plans } from '../components/Plans';
-import { Testimonials } from '../components/Testimonials';
+import { SectionPlans } from '../components/SectionPlans';
+import { SectionTestimonials } from '../components/SectionTestimonials';
+import { SectionApp } from '../components/SectionApp';
 
 export default function HomePage() {
   return (
@@ -13,15 +14,17 @@ export default function HomePage() {
 
       <SectionHome />
 
-      <Universitys />
+      <SectionUniversitys />
 
       <SectionAbout />
 
       <SectionWhoWeAre />
 
-      <Plans />
+      <SectionPlans />
 
-      <Testimonials />
+      <SectionTestimonials />
+
+      <SectionApp />
     </>
   );
 }

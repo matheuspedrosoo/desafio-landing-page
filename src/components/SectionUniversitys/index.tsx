@@ -1,6 +1,6 @@
 import { Image, Box } from '@chakra-ui/react';
 
-export function Universitys() {
+export function SectionUniversitys() {
   return (
     <Box
       border='1px solid transparent'

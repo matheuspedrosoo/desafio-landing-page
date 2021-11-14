@@ -1,6 +1,6 @@
 import { Box, Grid, Flex, Text, Image, Button } from '@chakra-ui/react';
 
-export function Plans() {
+export function SectionPlans() {
   return (
     <Box w='100%' maxWidth={1440} mx='auto'>
       <Grid templateColumns='repeat(2, 1fr)' gap={6} bg='white'>
