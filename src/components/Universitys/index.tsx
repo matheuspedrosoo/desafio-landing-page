@@ -3,6 +3,7 @@ import { Image, Box } from '@chakra-ui/react';
 export function Universitys() {
   return (
     <Box
+      border='1px solid transparent'
       w='100%'
       width={1440}
       mx='auto'

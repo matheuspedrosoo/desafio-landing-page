@@ -4,6 +4,7 @@ import { SectionHome } from '../components/SectionHome';
 import { Universitys } from '../components/Universitys';
 import { SectionWhoWeAre } from '../components/SectionWhoWeAre';
 import { Plans } from '../components/Plans';
+import { Testimonials } from '../components/Testimonials';
 
 export default function HomePage() {
   return (
@@ -19,6 +20,8 @@ export default function HomePage() {
       <SectionWhoWeAre />
 
       <Plans />
+
+      <Testimonials />
     </>
   );
 }

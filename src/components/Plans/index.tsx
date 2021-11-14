@@ -3,7 +3,7 @@ import { Box, Grid, Flex, Text, Image, Button } from '@chakra-ui/react';
 export function Plans() {
   return (
     <Box w='100%' maxWidth={1440} mx='auto'>
-      <Grid templateColumns='repeat(2, 1fr)' gap={6} h={1031} bg='white'>
+      <Grid templateColumns='repeat(2, 1fr)' gap={6} bg='white'>
         <Flex direction='column' ml='135px'>
           <Text
             fontFamily='Nunito'

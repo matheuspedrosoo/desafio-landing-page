@@ -13,14 +13,14 @@ export const theme = extendTheme({
     },
   },
   fonts: {
-    header: 'Inter',
-    body: ['Fredoka One', 'DM Sans', 'Nunito', 'Nunito Sans'],
-    footer: 'Work Sans',
+    header: ['Fredoka One', 'DM Sans', 'Nunito', 'Nunito Sans', 'Inter'],
+    body: ['Fredoka One', 'DM Sans', 'Nunito', 'Nunito Sans', 'Inter'],
+    footer: ['Fredoka One', 'DM Sans', 'Nunito', 'Nunito Sans', 'Inter'],
   },
   styles: {
     global: {
       body: {
-        bg: 'white',
+        background: '#E5E5E5',
       },
     },
   },
