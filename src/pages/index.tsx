@@ -6,6 +6,7 @@ import { SectionWhoWeAre } from '../components/SectionWhoWeAre';
 import { SectionPlans } from '../components/SectionPlans';
 import { SectionTestimonials } from '../components/SectionTestimonials';
 import { SectionApp } from '../components/SectionApp';
+import { Footer } from '../components/Footer';
 
 export default function HomePage() {
   return (
@@ -25,6 +26,8 @@ export default function HomePage() {
       <SectionTestimonials />
 
       <SectionApp />
+
+      <Footer />
     </>
   );
 }

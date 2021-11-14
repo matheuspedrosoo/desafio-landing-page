@@ -19,7 +19,7 @@ export function SectionApp() {
       >
         <Image mt='-90px' ml='152px' src='Phone.svg' alt='phone' />
 
-        <Box w='100%' h='672px' border='1px solid green'>
+        <Box w='100%' h='672px'>
           <Flex>
             <Image
               mt='213px'
