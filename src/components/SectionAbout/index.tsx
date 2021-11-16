@@ -161,36 +161,38 @@ export function SectionAbout() {
               />
             </Box>
 
-            <Text
-              //w='246px'
-              w='100%'
-              h='31px'
-              fontFamily='Inter'
-              fontWeight='600'
-              fontSize='18px'
-              lineHeight='30.12px'
-              color='primary'
-              mt='8px'
-              ml='63.5px'
-            >
-              100% focado na Matemática
-            </Text>
+            <Box>
+              <Text
+                //w='246px'
+                w='100%'
+                h='31px'
+                fontFamily='Inter'
+                fontWeight='600'
+                fontSize='18px'
+                lineHeight='30.12px'
+                color='primary'
+                mt='8px'
+                ml='63.5px'
+              >
+                100% focado na Matemática
+              </Text>
 
-            <Text
-              as='p'
-              w='253px'
-              h='60px'
-              fontFamily='Inter'
-              fontSize='12px'
-              lineHeight='14.52px'
-              color='gray.200'
-              mt='8px'
-              textAlign='center'
-              ml='63.5px'
-            >
-              Todo material é construído por profissionais especializados e com
-              foco no perfil de <Text> {'  '} </Text>cada vestibular.
-            </Text>
+              <Text
+                as='p'
+                w='253px'
+                h='60px'
+                fontFamily='Inter'
+                fontSize='12px'
+                lineHeight='14.52px'
+                color='gray.200'
+                mt='8px'
+                textAlign='center'
+                ml='63.5px'
+              >
+                Todo material é construído por profissionais especializados e
+                com foco no perfil de <Text> {'  '} </Text>cada vestibular.
+              </Text>
+            </Box>
 
             {/* Box2 */}
 
@@ -269,36 +271,39 @@ export function SectionAbout() {
               />
             </Box>
 
-            <Text
-              //w='246px'
-              w='100%'
-              h='31px'
-              fontFamily='Inter'
-              fontWeight='600'
-              fontSize='18px'
-              lineHeight='30.12px'
-              color='primary'
-              mt='8px'
-              ml='63.5px'
-            >
-              Matemática de um jeito fácil!
-            </Text>
+            <Box>
+              <Text
+                //w='246px'
+                w='100%'
+                h='31px'
+                fontFamily='Inter'
+                fontWeight='600'
+                fontSize='18px'
+                lineHeight='30.12px'
+                color='primary'
+                mt='8px'
+                ml='63.5px'
+              >
+                Matemática de um jeito fácil!
+              </Text>
 
-            <Text
-              as='p'
-              w='253px'
-              h='60px'
-              fontFamily='Inter'
-              fontSize='12px'
-              lineHeight='14.52px'
-              color='gray.200'
-              mt='8px'
-              textAlign='center'
-              ml='63.5px'
-            >
-              Resolução instantânea de qualquer equação algébrica na plataforma,
-              além de vídeos, apostilas, simulados e central de dúvidas 24h!
-            </Text>
+              <Text
+                as='p'
+                w='253px'
+                h='60px'
+                fontFamily='Inter'
+                fontSize='12px'
+                lineHeight='14.52px'
+                color='gray.200'
+                mt='8px'
+                textAlign='center'
+                ml='63.5px'
+              >
+                Resolução instantânea de qualquer equação algébrica na
+                plataforma, além de vídeos, apostilas, simulados e central de
+                dúvidas 24h!
+              </Text>
+            </Box>
 
             <Button
               mt='93.21px'
