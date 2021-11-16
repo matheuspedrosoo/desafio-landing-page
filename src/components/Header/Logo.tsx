@@ -1,9 +1,17 @@
-import { Box, Image } from '@chakra-ui/react';
+import { Box, Image, useBreakpointValue } from '@chakra-ui/react';
 
-export function Logo() {
+interface LogoProps {
+  showLogo?: boolean;
+}
+
+export function Logo({ showLogo = true }: LogoProps) {
   return (
-    <Box ml={50}>
-      <Image src='logoipsum-1.svg' alt='logo' />
+    <Box>
+      {showLogo ? (
+        <Image src='logoipsum-1.svg' ml='27.13px' alt='logo' />
+      ) : (
+        <Image src='Group54.svg' ml='25.89px' alt='logo' />
+      )}
     </Box>
   );
 }

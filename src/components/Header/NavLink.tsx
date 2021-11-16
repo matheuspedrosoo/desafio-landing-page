@@ -10,7 +10,7 @@ export function NavLink({ title, ...rest }: NavLinkProps) {
       color='gray.200'
       fontSize='16px'
       _hover={{
-        fontWeight: '700',
+        fontWeight: 'bold',
         color: 'primary',
       }}
       {...rest}
