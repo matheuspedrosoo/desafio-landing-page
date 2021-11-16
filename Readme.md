@@ -1,6 +1,6 @@
 # Landing page
 
-Website responsivo para versões desktop e mobile.
+Website responsivo para versões desktop e mobile. Acesse o projeto clicando [aqui](https://desafio-landing-page-matheuspedroso.vercel.app)
 
 <br>
 

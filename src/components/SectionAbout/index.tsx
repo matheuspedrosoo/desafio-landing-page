@@ -214,36 +214,38 @@ export function SectionAbout() {
               />
             </Box>
 
-            <Text
-              //w='246px'
-              w='100%'
-              h='31px'
-              fontFamily='Inter'
-              fontWeight='600'
-              fontSize='18px'
-              lineHeight='30.12px'
-              color='primary'
-              mt='8px'
-              ml='63.5px'
-            >
-              Acompanhamento de perto!
-            </Text>
+            <Box>
+              <Text
+                //w='246px'
+                w='100%'
+                h='31px'
+                fontFamily='Inter'
+                fontWeight='600'
+                fontSize='18px'
+                lineHeight='30.12px'
+                color='primary'
+                mt='8px'
+                ml='63.5px'
+              >
+                Acompanhamento de perto!
+              </Text>
 
-            <Text
-              as='p'
-              w='253px'
-              h='60px'
-              fontFamily='Inter'
-              fontSize='12px'
-              lineHeight='14.52px'
-              color='gray.200'
-              mt='8px'
-              textAlign='center'
-              ml='63.5px'
-            >
-              Todo o suporte que você precisa para aprender o conteúdo dos
-              principais vestibulares!
-            </Text>
+              <Text
+                as='p'
+                w='253px'
+                h='60px'
+                fontFamily='Inter'
+                fontSize='12px'
+                lineHeight='14.52px'
+                color='gray.200'
+                mt='8px'
+                textAlign='center'
+                ml='63.5px'
+              >
+                Todo o suporte que você precisa para aprender o conteúdo dos
+                principais vestibulares!
+              </Text>
+            </Box>
 
             {/* Box3 */}
 
