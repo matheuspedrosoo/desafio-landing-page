@@ -19,6 +19,9 @@ export const theme = extendTheme({
   },
   styles: {
     global: {
+      html: {
+        scrollBehavior: 'smooth',
+      },
       body: {
         background: '#E5E5E5',
       },

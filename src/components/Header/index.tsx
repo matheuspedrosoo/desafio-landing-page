@@ -11,6 +11,7 @@ export function Header() {
 
   return (
     <Flex
+      id='home'
       as='header'
       // w='100%'
       //maxWidth={1440}
@@ -27,10 +28,12 @@ export function Header() {
       <Flex align='center'>
         {isCurrent ? (
           <>
-            <NavLink href='#' title='Home' mr={42} />
-            <NavLink title='Quem somos' mr={37} />
-            <NavLink title='Planos' mr={37} />
-            <NavLink title='Fale conosco' mr={37} />
+            <Flex>
+              <NavLink href='#home' title='Home' mr={42} />
+              <NavLink href='#whoweare' title='Quem somos' mr={37} />
+              <NavLink href='#plans' title='Planos' mr={37} />
+              <NavLink href='#contact' title='Fale conosco' mr={37} />
+            </Flex>
           </>
         ) : (
           <NavMenu />

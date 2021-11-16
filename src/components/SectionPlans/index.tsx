@@ -14,7 +14,7 @@ export function SectionPlans() {
     lg: true,
   });
   return (
-    <Box w='100%' maxWidth={['375', '1440']} mx='auto'>
+    <Box id='plans' w='100%' maxWidth={['375', '1440']} mx='auto'>
       <Grid templateColumns='repeat(2, 1fr)' gap={6} bg='white'>
         {isCurrent ? (
           <>
@@ -583,7 +583,7 @@ export function SectionPlans() {
             </Box>
           </>
         ) : (
-          <Box width='375px' h='930px'>
+          <Box id='plans' width='375px' h='930px'>
             <Flex direction='column' ml='51px'>
               <Text
                 w='273px'

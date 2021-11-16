@@ -18,8 +18,6 @@ export function SectionHome() {
 
   return (
     <Flex
-      //maxWidth={1440}
-      //w='100%'
       maxWidth={['375', '1440']}
       height={821}
       left={0}

@@ -14,7 +14,7 @@ export function SectionWhoWeAre() {
   });
 
   return (
-    <Box w='100%' maxWidth={['375', '1440']} mx='auto'>
+    <Box id='whoweare' w='100%' maxWidth={['375', '1440']} mx='auto'>
       <Grid templateColumns='repeat(2, 1fr)' gap={0} bg='gray.50'>
         {isCurrent ? (
           <>

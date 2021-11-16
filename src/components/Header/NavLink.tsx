@@ -7,11 +7,13 @@ interface NavLinkProps extends ChakraLinkProps {
 export function NavLink({ title, ...rest }: NavLinkProps) {
   return (
     <Link
+      zIndex='1'
+      as='a'
       color='gray.200'
       fontSize='16px'
       _hover={{
-        fontWeight: 'bold',
         color: 'primary',
+        textShadow: '1px 0px 0px black',
       }}
       {...rest}
     >

@@ -22,23 +22,39 @@ export function NavMenu() {
         fontFamily='Inter'
         color='gray.200'
         fontSize='16px'
-        textDecoration='none'
-        _hover={{
-          fontWeight: 'bold',
-          color: 'primary',
-        }}
+        decoration='none'
       >
-        <MenuItem>
-          <Link href='#'>Home</Link>
+        <MenuItem
+          _hover={{
+            color: 'primary',
+            textShadow: '1px 0px 0px black',
+          }}
+        >
+          <Link href='#home'>Home</Link>
         </MenuItem>
-        <MenuItem>
-          <Link href='#'>Quem somos</Link>
+        <MenuItem
+          _hover={{
+            color: 'primary',
+            textShadow: '1px 0px 0px black',
+          }}
+        >
+          <Link href='#whoweare'>Quem somos</Link>
         </MenuItem>
-        <MenuItem>
-          <Link href='#'>Planos</Link>
+        <MenuItem
+          _hover={{
+            color: 'primary',
+            textShadow: '1px 0px 0px black',
+          }}
+        >
+          <Link href='#plans'>Planos</Link>
         </MenuItem>
-        <MenuItem>
-          <Link href='#'>Fale conosco</Link>
+        <MenuItem
+          _hover={{
+            color: 'primary',
+            textShadow: '1px 0px 0px black',
+          }}
+        >
+          <Link href='#contact'>Fale conosco</Link>
         </MenuItem>
       </MenuList>
     </Menu>
